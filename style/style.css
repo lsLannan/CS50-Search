@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* NAV BAR */
+
+header {
+    border: 1px solid #F0F0F4;
+}
+
+nav {
+    /*border: 1px solid green;*/
+    float: right;
+
+    flex: inline-flex;
+    justify-content: flex-end;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #3c4043;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* SEARCH AREA */
+
+h2 {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+}
+
+.logo {
+    width: 272px;
+    height: 92px;
+}
+
+.search {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 250px 0;
+
+    /*border: 1px solid green;*/
+}
+
+.search-logo {
+    width: 20px;
+    height: 20px;
+}
+
+.search-bar {
+    border-radius: 25px;
+    border: 1px solid #F0F0F4;
+    cursor: text;
+    padding: 5px 45px;
+    width: 443px;
+    height: 27px;;
+}
+
+.search-bar:hover {
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.search-buttons {
+    /*border: 1px solid red;*/
+
+    gap: 40px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+
+.button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    padding: 10px;
+    color: #3c4043;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover {
+    border: 1px solid lightgrey;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#lucky:hover {
+    border: 1px solid lightgrey;
+    background-color: rgb(77, 167, 197);
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+/* FOOTER */
+ footer {
+    background-color: #F0F0F4;
+    color: #3c4043;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 15px 0;
+    text-align: center;
+ }
+
+ hr {
+    color: #ededf0;
+    margin: 10px 0;
+ }

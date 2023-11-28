@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAERAAAAAAAAABEQAAAAAAAAAREAAAAAAAAAERARERAAAAABERERERAAAAAREAAREAAAAREAAAERAAABEAAAABEAAAEQAAAAEQAAARAAAAARAAABEQAAAREAAAAREAAREAAAABEREREQAAAAABEREAD//wAAn/8AAI//AADH/wAA4/8AAPEHAAD4AQAA/HEAAPj4AAD5/AAA+fwAAPn8AAD4+AAA/HEAAPwBAAD/BwAA" rel="icon" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="images.html"><li>Image Search</li></a>
+                <a href="#"><li>Advanced Search</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container search">
+        <img class="logo" src="images/google-logo.png" alt="Google logo">
+
+        <form action="https://www.google.com/search">
+
+                <!-- TODO: put logo IN search bar -->
+            <img class="search-logo" src="https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_960_720.png">
+            <input class="search-bar" type="text" name="q">
+            
+            <div class="container search-buttons">
+                <input class="button" type="submit" value="Google Search">
+                <input class="button" id="lucky" type="button" value="I'm Feeling Lucky">
+                
+            </div>
+            
+        </form>
+        <p>Hi down here!</p>
+    </div>
+
+    <footer>
+        <p>lslannan</p><hr>
+        <p>Made for CS50 Web Dev</p>
+    </footer>
+</body>
+</html>
