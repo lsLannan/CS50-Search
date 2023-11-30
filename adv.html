@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAERAAAAAAAAABEQAAAAAAAAAREAAAAAAAAAERARERAAAAABERERERAAAAAREAAREAAAAREAAAERAAABEAAAABEAAAEQAAAAEQAAARAAAAARAAABEQAAAREAAAAREAAREAAAABEREREQAAAAABEREAD//wAAn/8AAI//AADH/wAA4/8AAPEHAAD4AQAA/HEAAPj4AAD5/AAA+fwAAPn8AAD4+AAA/HEAAPwBAAD/BwAA" rel="icon" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html"><li>Back to Search</li></a>
+                <a href="images.html"><li>Image Search</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container search">
+        <img class="logo" src="images/google-logo.png" alt="Google logo">
+
+        <form method="GET" action="https://www.google.com/advanced_search">
+
+            <h2>Advanced Search</h2><hr>
+            <h3>Find Pages with...</h3>
+
+
+            <div class="container" id="adv-box-box">
+                <div class="adv-label" id="label-box">
+                    <label class="adv-label" class="adv-search-box for="all-words">all these words: </label><br>
+                    <label class="adv-label" for="exact-words">this exact word or phrase: </label><br>
+                    <label class="adv-label" for="any-words">any of these words: </label><br>
+                    <label class="adv-label" for="none-words">none of these words: </label><br>
+                </div>
+
+                <div class="container" id="adv-box">
+                    
+                    <input class="adv-search-box" type="text" name="q" id="all-words">
+
+                    
+                    <input class="adv-search-box" type="text" name="q" id="exact-words">
+
+                    
+                    <input class="adv-search-box" type="text" name="q" id="any-words">
+
+                    
+                    <input class="adv-search-box" type="text" name="q" id="none-words">
+                </div>
+            </div>
+
+            <div class="container search-buttons">
+                <input class="button" id="adv-btn" type="submit" value="Advanced Search">
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p>lslannan</p><hr>
+        <p>Made for CS50 Web Dev</p>
+    </footer>
+</body>
+</html>

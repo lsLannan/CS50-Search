@@ -16,7 +16,7 @@ body {
 /* NAV BAR */
 
 header {
-    border: 1px solid #F0F0F4;
+    border: 1px solid #FFF;
 }
 
 nav {
@@ -107,12 +107,52 @@ h2 {
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
+/*
 #lucky:hover {
     border: 1px solid lightgrey;
     background-color: rgb(77, 167, 197);
+    color: white;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
+*/
+
+
+/* ADVANCED */
+
+#adv-box-box {
+    border: 5px solid yellow;
+    margin: 20px;
+}
+
+
+#adv-btn {
+    background-color: #4285f4;
+    color: #ededf0;
+
+}
+
+#label-box {
+    flex-direction: column;
+    border: 5px solid green;
+    padding: 20px;
+
+}
+
+#adv-box {
+    flex-direction: column;
+
+    border: 5px solid hotpink;
+    padding: 20px;
+}
+
+
+.adv-search-box {
+    width: 500px;
+    margin: 20px;
+}
+
 
 /* FOOTER */
  footer {
